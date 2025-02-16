@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 import seaborn as sns
 
-# read the dataset
+#read the dataset
 df = pd.read_csv("2012-sat-results.csv")
 
 print(df.info())
